@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T15:57:15.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="X3o5IVEmRUzIja4lTgDJ" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T18:43:24.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="vo8v0WaBb5T695RutAip" version="18.2.1" type="github">
   <diagram id="qQHj0DCXs-47OqAVF7OY" name="第 1 页">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,6 +84,9 @@
         </mxCell>
         <mxCell id="PytMElSZdl68NIHrlDN3-4" value="buff" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="1100" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PytMElSZdl68NIHrlDN3-5" value="音效" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
