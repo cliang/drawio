@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T14:34:47.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="PjO6ItVwD0Cw1ItDNaGN" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-19T14:38:34.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="pD8ABme-trMSQOT8F0Vz" version="18.2.1" type="github">
   <diagram id="8CQ7pHACSbwYYKle6tcx" name="第 1 页">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-40" value="开始游戏[LauncherGame]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1500" width="1250" height="340" as="geometry" />
+        </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-38" value="更新主体逻辑[UpdateControllerEx]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1265" y="762.5" width="170" height="140" as="geometry" />
         </mxCell>
@@ -336,8 +339,36 @@
         <mxCell id="T8f0lB24S4ym5IK2Bucu-32" value="下载mini包" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1305" y="810" width="70" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-34" target="T8f0lB24S4ym5IK2Bucu-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-34" value="更新结束" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1425" y="940" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-39" target="T8f0lB24S4ym5IK2Bucu-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-39" value="启动游戏" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1550" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-42" target="T8f0lB24S4ym5IK2Bucu-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-42" value="初始化msgid对应表" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1550" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-44" target="T8f0lB24S4ym5IK2Bucu-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-44" value="检查语言" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1550" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-46" value="加载场景" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="917" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
