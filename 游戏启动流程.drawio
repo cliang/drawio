@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T14:57:04.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="pw1cUEFYd5xOslM947OC" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-19T15:07:18.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="mfsBZRYm-gclH1mKvdUq" version="18.2.1" type="github">
   <diagram id="8CQ7pHACSbwYYKle6tcx" name="第 1 页">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -420,6 +420,9 @@
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-69" value="sdk登录？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="1660" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-71" value="显示主场景" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1660" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
