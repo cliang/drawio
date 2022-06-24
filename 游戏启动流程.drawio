@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T04:08:48.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ILEQcrhLus07PPFhdoz6" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T04:13:10.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="psJwahYYsCmjoBGrO1uv" version="18.2.0" type="github">
   <diagram id="8CQ7pHACSbwYYKle6tcx" name="第 1 页">
-    <mxGraphModel dx="1376" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,23 +60,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xlquk3ks9NL8d3izdVPQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="Xlquk3ks9NL8d3izdVPQ-16" target="Xlquk3ks9NL8d3izdVPQ-20" edge="1">
+        <mxCell id="EIbtX5MXRiDElDqHODDC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xlquk3ks9NL8d3izdVPQ-16" target="Xlquk3ks9NL8d3izdVPQ-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Xlquk3ks9NL8d3izdVPQ-16" value="设置默认语言" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="810" y="180" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Xlquk3ks9NL8d3izdVPQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="Xlquk3ks9NL8d3izdVPQ-18" target="Xlquk3ks9NL8d3izdVPQ-20" edge="1">
+        <mxCell id="EIbtX5MXRiDElDqHODDC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Xlquk3ks9NL8d3izdVPQ-18" target="Xlquk3ks9NL8d3izdVPQ-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Xlquk3ks9NL8d3izdVPQ-18" value="申请ios权限" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="810" y="310" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Xlquk3ks9NL8d3izdVPQ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="Xlquk3ks9NL8d3izdVPQ-20" target="Xlquk3ks9NL8d3izdVPQ-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Xlquk3ks9NL8d3izdVPQ-20" value="设置默认语言" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="910" y="180" width="70" height="80" as="geometry" />
+          <mxGeometry x="810" y="300" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Xlquk3ks9NL8d3izdVPQ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="Xlquk3ks9NL8d3izdVPQ-23" target="Xlquk3ks9NL8d3izdVPQ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
