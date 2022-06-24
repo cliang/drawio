@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T04:14:34.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Y4GmZvHNm2MD2QbjV-Ek" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T06:20:10.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="E1dC0BP4o20K7BfPn-h0" version="18.2.0" type="github">
   <diagram id="8CQ7pHACSbwYYKle6tcx" name="第 1 页">
-    <mxGraphModel dx="1476" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3444" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -382,23 +382,17 @@
         <mxCell id="T8f0lB24S4ym5IK2Bucu-53" value="点击登录" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-56" target="T8f0lB24S4ym5IK2Bucu-58" edge="1">
+        <mxCell id="EIbtX5MXRiDElDqHODDC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-56" target="T8f0lB24S4ym5IK2Bucu-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-56" value="加载语言包" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="1550" width="70" height="80" as="geometry" />
+          <mxGeometry x="480" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-64" value="连接成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-58" target="T8f0lB24S4ym5IK2Bucu-63" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-58" value="连接服务器" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="1550" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-63" target="T8f0lB24S4ym5IK2Bucu-65" edge="1">
+        <mxCell id="EIbtX5MXRiDElDqHODDC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-63" target="T8f0lB24S4ym5IK2Bucu-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-63" value="发送登录协议" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1550" width="70" height="80" as="geometry" />
+          <mxGeometry x="330" y="1660" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-65" target="T8f0lB24S4ym5IK2Bucu-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -406,17 +400,20 @@
         <mxCell id="T8f0lB24S4ym5IK2Bucu-65" value="sdk登录成功" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-67" target="T8f0lB24S4ym5IK2Bucu-69" edge="1">
+        <mxCell id="EIbtX5MXRiDElDqHODDC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-67" target="T8f0lB24S4ym5IK2Bucu-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-67" value="登录游戏服务器" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="1660" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-69" value="sdk登录？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1660" width="70" height="80" as="geometry" />
+        <mxCell id="EIbtX5MXRiDElDqHODDC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-69" target="T8f0lB24S4ym5IK2Bucu-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-69" value="sdk登录" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="344" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-71" value="显示主场景" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="1660" width="70" height="80" as="geometry" />
+          <mxGeometry x="470" y="1660" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
