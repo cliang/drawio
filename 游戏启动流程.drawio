@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T08:49:16.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="SfFTTaxIXQ4MFDy8ChBE" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T04:08:48.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ILEQcrhLus07PPFhdoz6" version="18.2.0" type="github">
   <diagram id="8CQ7pHACSbwYYKle6tcx" name="第 1 页">
-    <mxGraphModel dx="1467" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1376" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-37" value="更新主体逻辑[UpdateControllerEx]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="50" y="585" width="1540" height="495" as="geometry" />
+        </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-40" value="开始游戏[LauncherGame]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="780" y="1500" width="550" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-38" value="更新主体逻辑[UpdateControllerEx]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-38" value="下载mini包&lt;br&gt;[MiniClientControl]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1265" y="762.5" width="170" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-37" value="更新主体逻辑[UpdateControllerEx]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="50" y="585" width="1540" height="495" as="geometry" />
         </mxCell>
         <mxCell id="Xlquk3ks9NL8d3izdVPQ-58" value="启动初始化[UpdateProxy]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="280" y="150" width="850" height="240" as="geometry" />
