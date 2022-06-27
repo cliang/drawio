@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T13:11:27.586Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nxRgbKzd9-rI3z8DXoIE" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-27T13:14:31.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="esCeucUGpb8H8l8oNdAm" version="18.2.0" type="github">
   <diagram id="W02hB2R3WXop9_Jy0zCd" name="第 1 页">
     <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -8,19 +8,16 @@
           <mxGeometry x="180" y="820" width="490" height="290" as="geometry" />
         </mxCell>
         <mxCell id="hfSx2sAuh5kj68jIHD0Z-1" value="Action&lt;br&gt;封装通用行为，通过表格控制。主要用于任务跳转，新手引导跳转。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="220" y="140" width="400" height="220" as="geometry" />
+          <mxGeometry x="330" y="140" width="290" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="hfSx2sAuh5kj68jIHD0Z-6" value="触发行为" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="hfSx2sAuh5kj68jIHD0Z-2" target="hfSx2sAuh5kj68jIHD0Z-5" edge="1">
+        <mxCell id="hfSx2sAuh5kj68jIHD0Z-6" value="触发行为" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="JfK0Wnu50M8rsips0ciG-9" target="hfSx2sAuh5kj68jIHD0Z-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hfSx2sAuh5kj68jIHD0Z-2" value="任务系统" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="283" y="200" width="75" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hfSx2sAuh5kj68jIHD0Z-7" value="触发行为" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="hfSx2sAuh5kj68jIHD0Z-4" target="hfSx2sAuh5kj68jIHD0Z-5" edge="1">
+        <mxCell id="hfSx2sAuh5kj68jIHD0Z-7" value="触发行为" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="hfSx2sAuh5kj68jIHD0Z-4" target="hfSx2sAuh5kj68jIHD0Z-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hfSx2sAuh5kj68jIHD0Z-4" value="其他系统" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="283" y="280" width="75" height="60" as="geometry" />
+          <mxGeometry x="170" y="290" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hfSx2sAuh5kj68jIHD0Z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="hfSx2sAuh5kj68jIHD0Z-5" target="hfSx2sAuh5kj68jIHD0Z-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -107,7 +104,7 @@
           <mxGeometry x="-470" y="490" width="450" height="370" as="geometry" />
         </mxCell>
         <mxCell id="hfSx2sAuh5kj68jIHD0Z-36" value="通知外部进度改变了" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="310" width="70" height="80" as="geometry" />
+          <mxGeometry x="170" y="390" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hfSx2sAuh5kj68jIHD0Z-41" value="注册" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" parent="1" source="hfSx2sAuh5kj68jIHD0Z-38" target="hfSx2sAuh5kj68jIHD0Z-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -164,10 +161,28 @@
           <mxGeometry x="-448.5" y="630" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vCqVZA3wzi98IfluUlKk-11" value="请求服务器完成任务" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-448.5" y="510" width="70" height="80" as="geometry" />
+          <mxGeometry x="-448" y="770" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JfK0Wnu50M8rsips0ciG-8" value="拉取数据" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="JfK0Wnu50M8rsips0ciG-1" target="JfK0Wnu50M8rsips0ciG-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JfK0Wnu50M8rsips0ciG-1" value="任务的进度数据" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="750" width="80" height="80" as="geometry" />
+          <mxGeometry x="-440" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JfK0Wnu50M8rsips0ciG-3" value="任务界面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="150" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="JfK0Wnu50M8rsips0ciG-7" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="JfK0Wnu50M8rsips0ciG-5" target="JfK0Wnu50M8rsips0ciG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JfK0Wnu50M8rsips0ciG-5" value="打开界面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="230" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JfK0Wnu50M8rsips0ciG-6" value="初始化" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="220" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JfK0Wnu50M8rsips0ciG-9" value="点击前往任务" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="170" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
