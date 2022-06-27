@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T11:39:12.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="18.2.0" etag="62uwIXnfUUKvLMAqvhUa" type="github"><diagram id="W02hB2R3WXop9_Jy0zCd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-27T12:00:42.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nISGwQV3s9CWUEyd7d3-" version="18.2.0" type="github">
+  <diagram id="W02hB2R3WXop9_Jy0zCd" name="第 1 页">
+    <mxGraphModel dx="1202" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hfSx2sAuh5kj68jIHD0Z-1" value="Action&lt;br&gt;封装通用行为，通过表格控制。主要用于任务跳转，新手引导跳转。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="184" y="140" width="486" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hfSx2sAuh5kj68jIHD0Z-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;触发行为&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="hfSx2sAuh5kj68jIHD0Z-2" target="hfSx2sAuh5kj68jIHD0Z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfSx2sAuh5kj68jIHD0Z-2" value="任务系统" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfSx2sAuh5kj68jIHD0Z-7" value="触发行为" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="hfSx2sAuh5kj68jIHD0Z-4" target="hfSx2sAuh5kj68jIHD0Z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfSx2sAuh5kj68jIHD0Z-4" value="其他系统" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfSx2sAuh5kj68jIHD0Z-5" value="根据注册执行具体行为" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="71" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
