@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T09:01:54.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CpH29RQMJI8uvfmZbSEl" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-29T06:30:32.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="itU0j_IxzZf3cFLBvBMB" version="18.2.0" type="github">
   <diagram id="8CQ7pHACSbwYYKle6tcx" name="第 1 页">
-    <mxGraphModel dx="1824" dy="982" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -375,32 +375,26 @@
         <mxCell id="T8f0lB24S4ym5IK2Bucu-46" value="加载场景" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="917" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-48" target="T8f0lB24S4ym5IK2Bucu-53" edge="1">
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-48" target="3HAVK1-78psvAMEjoXDr-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-48" value="打开登录界面" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="810" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-50" value="登录游戏" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1500" width="630" height="280" as="geometry" />
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-50" value="登录游戏[p_loginCtrl]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1500" width="629" height="273" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-53" target="T8f0lB24S4ym5IK2Bucu-56" edge="1">
+        <mxCell id="3HAVK1-78psvAMEjoXDr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-53" target="3HAVK1-78psvAMEjoXDr-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-53" value="点击登录" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1550" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="EIbtX5MXRiDElDqHODDC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-56" target="T8f0lB24S4ym5IK2Bucu-69" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-56" value="加载语言包" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="480" y="1550" width="70" height="80" as="geometry" />
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-53" value="拉取服务器列表" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="510" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EIbtX5MXRiDElDqHODDC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-63" target="T8f0lB24S4ym5IK2Bucu-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T8f0lB24S4ym5IK2Bucu-63" value="发送登录协议" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="330" y="1660" width="70" height="80" as="geometry" />
+        <mxCell id="T8f0lB24S4ym5IK2Bucu-63" value="收取登录相关协议" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="288" y="1660" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;curved=1;" parent="1" source="T8f0lB24S4ym5IK2Bucu-65" target="T8f0lB24S4ym5IK2Bucu-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -418,10 +412,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-69" value="sdk登录" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="344" y="1550" width="70" height="80" as="geometry" />
+          <mxGeometry x="280" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-71" value="显示主场景" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1660" width="70" height="80" as="geometry" />
+          <mxGeometry x="394" y="1660" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3HAVK1-78psvAMEjoXDr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="3HAVK1-78psvAMEjoXDr-1" target="T8f0lB24S4ym5IK2Bucu-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HAVK1-78psvAMEjoXDr-1" value="初始化界面" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="618" y="1550" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3HAVK1-78psvAMEjoXDr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="3HAVK1-78psvAMEjoXDr-3" target="T8f0lB24S4ym5IK2Bucu-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HAVK1-78psvAMEjoXDr-3" value="同意用户协议" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
