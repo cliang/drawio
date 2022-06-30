@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T03:23:57.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="sWKjur6Ww-8iLRJXw7_Z" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T03:29:45.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pvJQ-8ICsnTtlmvcFj3z" version="20.0.4" type="github">
   <diagram id="8CQ7pHACSbwYYKle6tcx" name="第 1 页">
     <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -387,7 +387,7 @@
         <mxCell id="3HAVK1-78psvAMEjoXDr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="T8f0lB24S4ym5IK2Bucu-53" target="3HAVK1-78psvAMEjoXDr-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m53gAkeJt62lTw_hYXJs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=15;entryDy=15;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-53" target="m53gAkeJt62lTw_hYXJs-1">
+        <mxCell id="m53gAkeJt62lTw_hYXJs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=15;entryDy=15;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-53" target="m53gAkeJt62lTw_hYXJs-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-53" value="拉取服务器列表" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
@@ -432,7 +432,7 @@
         <mxCell id="3HAVK1-78psvAMEjoXDr-3" value="同意用户协议" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="400" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="m53gAkeJt62lTw_hYXJs-1" value="渠道&lt;br&gt;版本号" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m53gAkeJt62lTw_hYXJs-1" value="渠道&lt;br&gt;agentid&lt;br&gt;版本号" style="shape=card;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="558" y="1653" width="85" height="60" as="geometry" />
         </mxCell>
       </root>
