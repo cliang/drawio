@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T06:30:32.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="itU0j_IxzZf3cFLBvBMB" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T03:23:57.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="sWKjur6Ww-8iLRJXw7_Z" version="20.0.4" type="github">
   <diagram id="8CQ7pHACSbwYYKle6tcx" name="第 1 页">
     <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -384,7 +384,10 @@
         <mxCell id="T8f0lB24S4ym5IK2Bucu-50" value="登录游戏[p_loginCtrl]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;fillColor=none;verticalAlign=top;fontStyle=1;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="100" y="1500" width="629" height="273" as="geometry" />
         </mxCell>
-        <mxCell id="3HAVK1-78psvAMEjoXDr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-53" target="3HAVK1-78psvAMEjoXDr-3">
+        <mxCell id="3HAVK1-78psvAMEjoXDr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="T8f0lB24S4ym5IK2Bucu-53" target="3HAVK1-78psvAMEjoXDr-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m53gAkeJt62lTw_hYXJs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=15;entryDy=15;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="T8f0lB24S4ym5IK2Bucu-53" target="m53gAkeJt62lTw_hYXJs-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T8f0lB24S4ym5IK2Bucu-53" value="拉取服务器列表" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
@@ -417,17 +420,20 @@
         <mxCell id="T8f0lB24S4ym5IK2Bucu-71" value="显示主场景" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="394" y="1660" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3HAVK1-78psvAMEjoXDr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="3HAVK1-78psvAMEjoXDr-1" target="T8f0lB24S4ym5IK2Bucu-53">
+        <mxCell id="3HAVK1-78psvAMEjoXDr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="3HAVK1-78psvAMEjoXDr-1" target="T8f0lB24S4ym5IK2Bucu-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3HAVK1-78psvAMEjoXDr-1" value="初始化界面" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="3HAVK1-78psvAMEjoXDr-1" value="初始化界面" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="618" y="1550" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3HAVK1-78psvAMEjoXDr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="3HAVK1-78psvAMEjoXDr-3" target="T8f0lB24S4ym5IK2Bucu-69">
+        <mxCell id="3HAVK1-78psvAMEjoXDr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" source="3HAVK1-78psvAMEjoXDr-3" target="T8f0lB24S4ym5IK2Bucu-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3HAVK1-78psvAMEjoXDr-3" value="同意用户协议" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="3HAVK1-78psvAMEjoXDr-3" value="同意用户协议" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="400" y="1550" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m53gAkeJt62lTw_hYXJs-1" value="渠道&lt;br&gt;版本号" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="558" y="1653" width="85" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
