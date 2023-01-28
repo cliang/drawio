@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T07:10:49.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Vl2MYWxkf2BF-z1ghZ5p" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-28T07:38:47.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-v0NiuJJgFkGUZ8fYwcZ" version="20.8.13" type="github">
   <diagram id="69LntcVvWPhwgmSdEE9A" name="第 1 页">
-    <mxGraphModel dx="5239" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8824" dy="3820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,6 +101,14 @@
         <mxCell id="PguRPpnCsBKC-7vajnqY-9" value="引用池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;fontSize=62;" vertex="1" parent="1">
           <mxGeometry x="-1650" y="3100" width="450" height="99" as="geometry" />
         </mxCell>
+        <mxCell id="PguRPpnCsBKC-7vajnqY-12" value="对象池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;fontSize=62;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="3990" width="450" height="99" as="geometry" />
+        </mxCell>
+        <UserObject label="https://zhuanlan.zhihu.com/p/434142767" link="https://zhuanlan.zhihu.com/p/434142767" id="PguRPpnCsBKC-7vajnqY-13">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=62;fontColor=#393C56;" vertex="1" parent="1">
+            <mxGeometry x="-900" y="3990" width="560" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
