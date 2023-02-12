@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T13:07:10.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0YgPaYmQ36wm3i3RlYS5" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T13:13:44.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="L06j0zmUZU-tXzWym5_4" version="20.8.19" type="github">
   <diagram id="69LntcVvWPhwgmSdEE9A" name="第 1 页">
     <mxGraphModel dx="5000" dy="1569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FEFFED" math="0" shadow="0">
       <root>
@@ -1720,6 +1720,63 @@
         </mxCell>
         <mxCell id="k2pqwxOIF7WChXyPbkzg-95" value="填充包头及包体，填满了结束" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillStyle=auto;fontSize=32;" vertex="1" parent="1">
           <mxGeometry x="3411" y="22357" width="372" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-96" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;head&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="2093" y="17594" width="682" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-97" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;block&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="2775" y="17594" width="254" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-98" value="至少含有包体大小信息&lt;br&gt;包头大小信息前后端约定" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillStyle=auto;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="2289" y="17432" width="372" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-99" value="具体数据" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillStyle=auto;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="3359" y="17426" width="372" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-100" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;block&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="3031" y="17594" width="454" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-101" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;block&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="3485" y="17596" width="102" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-102" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;...&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="3587" y="17595.75" width="102" height="142.25" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-103" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;block&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="3686" y="17596.5" width="115" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-104" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;filename&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="4433" y="17593.75" width="141" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-105" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;filename&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="4578" y="17594.25" width="141" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-107" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;filename&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="4719" y="17593.25" width="141" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-108" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;...&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="4860" y="17591.75" width="141" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-110" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;filename&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="5001" y="17592.25" width="141" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-111" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;block_no&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="3801" y="17595" width="186" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-112" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;block_no&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="3987" y="17593.75" width="136" height="149.25" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-113" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;block_no&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="4300" y="17594.5" width="133" height="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-114" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;...&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="4122" y="17594.38" width="178" height="149.25" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-115" value="文件名" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillStyle=auto;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="4663" y="17413" width="372" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="k2pqwxOIF7WChXyPbkzg-116" value="数据未填充的位置" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;fillStyle=auto;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="4000" y="17426" width="372" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
