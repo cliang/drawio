@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T13:19:02.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="h7MPvuxTDucKF5Oak5ZJ" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T14:05:07.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Rw2zuVSNUsZvpsdEaxHI" version="21.2.3" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
-    <mxGraphModel dx="2889" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3154" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -282,6 +282,9 @@
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5B3u7BjO5yEvpYxDOT5w-99" target="5B3u7BjO5yEvpYxDOT5w-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5B3u7BjO5yEvpYxDOT5w-99" target="5B3u7BjO5yEvpYxDOT5w-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-99" value="List&amp;lt;AbilityEffect&amp;gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-680" y="1037.5" width="170" height="30" as="geometry" />
         </mxCell>
@@ -292,7 +295,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-101" value="Effect" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="1100" width="170" height="30" as="geometry" />
+          <mxGeometry x="-730" y="1100" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-103" value="DamageEffect" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-950" y="1100" width="170" height="30" as="geometry" />
@@ -320,6 +323,56 @@
         </mxCell>
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-114" value="。。。" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-950" y="1307.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5B3u7BjO5yEvpYxDOT5w-115" target="5B3u7BjO5yEvpYxDOT5w-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-837" y="890" />
+              <mxPoint x="-622" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-115" value="AddStatusAction" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-902.5" y="810.5" width="130" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5B3u7BjO5yEvpYxDOT5w-116" target="5B3u7BjO5yEvpYxDOT5w-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-116" value="AddStatusActionAbility" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="753" width="145" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-119" value="通过EffectAddStatusComponent添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5B3u7BjO5yEvpYxDOT5w-118" target="5B3u7BjO5yEvpYxDOT5w-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-118" value="EffectAssignAction&lt;br&gt;赋给效果行动" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-892.5" y="642" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-123" value="通过EffectAddStatusComponent添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5B3u7BjO5yEvpYxDOT5w-122" target="5B3u7BjO5yEvpYxDOT5w-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-122" value="AbilityItem" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1222.5" y="917.5" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-125" value="AttackExecution" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1222.5" y="954.5" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-126" value="EffectTriggerEventBind" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1222.5" y="992" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-127" value="ExecuteClipAssignToTargetComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="1030" width="215" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-128" value="StatusTenacityComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1253.5" y="1072" width="182" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-129" value="Skill1006Component" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1238.5" y="1122" width="152" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-134" value="应用效果给目标效果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5B3u7BjO5yEvpYxDOT5w-133" target="5B3u7BjO5yEvpYxDOT5w-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-133" value="ExecuteClip" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="1026" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
