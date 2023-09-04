@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T16:41:29.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5G22Mhy4crC0c49Npf_z" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T16:45:07.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5I7hUem9jn7x6Pl_5ogS" version="21.7.2" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
     <mxGraphModel dx="5370" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -426,7 +426,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-2170" y="200" />
-              <mxPoint x="-1442" y="200" />
+              <mxPoint x="-1372" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -438,6 +438,14 @@
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-2" target="-J8oJ2Sxk5KtxRYQshvN-64">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-2" target="-J8oJ2Sxk5KtxRYQshvN-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2170" y="200" />
+              <mxPoint x="-1510" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-2" value="实体" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-2225" y="100" width="110" height="30" as="geometry" />
@@ -464,7 +472,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-10" value="AttackAbility" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1497.5" y="382.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1427.5" y="395" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-12" target="-J8oJ2Sxk5KtxRYQshvN-45">
           <mxGeometry relative="1" as="geometry" />
@@ -526,7 +534,7 @@
           <mxGeometry x="-850" y="1190" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-37" value="AbilityEffectComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1510" y="462.5" width="135" height="50" as="geometry" />
+          <mxGeometry x="-1440" y="475" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-41" target="-J8oJ2Sxk5KtxRYQshvN-16">
           <mxGeometry relative="1" as="geometry" />
@@ -574,10 +582,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-59" value="MotionActionAbility" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1320" y="267.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1250" y="280" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-62" value="MotionAction" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1320" y="367.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1250" y="380" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-64" target="-J8oJ2Sxk5KtxRYQshvN-67">
           <mxGeometry relative="1" as="geometry" />
@@ -616,19 +624,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-82" value="AttackAction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1640" y="377.5" width="110" height="40" as="geometry" />
+          <mxGeometry x="-1570" y="390" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-85" target="-J8oJ2Sxk5KtxRYQshvN-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-85" value="AttackActionAbility" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1639" y="310" width="109" height="30" as="geometry" />
+          <mxGeometry x="-1569" y="322.5" width="109" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-87" target="-J8oJ2Sxk5KtxRYQshvN-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-87" value="Hero" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1627" y="465" width="84" height="32.5" as="geometry" />
+          <mxGeometry x="-1694" y="392.5" width="84" height="32.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
