@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T15:52:15.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="J2i_V_Mbp8YwDruOjlgR" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T16:16:53.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Gph9wBGrrK1_YzOba2w3" version="21.7.2" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
-    <mxGraphModel dx="3586" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4621" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -357,7 +357,7 @@
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-118" value="EffectAssignAction&lt;br&gt;赋给效果行动" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-892.5" y="642" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-123" value="通过EffectAddStatusComponent添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5B3u7BjO5yEvpYxDOT5w-122" target="5B3u7BjO5yEvpYxDOT5w-118" edge="1">
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-123" value="AssignEffect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5B3u7BjO5yEvpYxDOT5w-122" target="5B3u7BjO5yEvpYxDOT5w-118" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1162" y="667" />
@@ -436,43 +436,54 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-6" value="DamageAbility" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1905" y="260" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1995" y="270" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-17" value="AbilityEffect.CreateAssignAction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-8" target="-J8oJ2Sxk5KtxRYQshvN-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-8" value="EffectAssignAbility" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2390" y="260" width="110" height="30" as="geometry" />
+          <mxGeometry x="-2820" y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-10" target="-J8oJ2Sxk5KtxRYQshvN-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-10" value="AttackAbility" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1635" y="260" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1622.5" y="260" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-12" value="。。。" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1485" y="260" width="110" height="30" as="geometry" />
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-12" target="-J8oJ2Sxk5KtxRYQshvN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-12" value="CureActionAbility" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2368" y="270" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-21" value="ReceiveDamage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-14" target="-J8oJ2Sxk5KtxRYQshvN-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-14" value="DamageAction" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1905" y="340" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1995" y="350" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-18" value="OnTriggerApplyEffect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-16" target="-J8oJ2Sxk5KtxRYQshvN-25">
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-18" value="OnTriggerApplyEffect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-56" target="-J8oJ2Sxk5KtxRYQshvN-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-16" value="EffectAssignAction" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2390" y="340" width="110" height="30" as="geometry" />
+          <mxGeometry x="-2820" y="350" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-20" value="CombatEntity" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1905" y="490" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1995" y="480" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-23" value="添加对应的Component" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-680" y="1715" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-25" target="-J8oJ2Sxk5KtxRYQshvN-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-25" target="-J8oJ2Sxk5KtxRYQshvN-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2010" y="365" />
+              <mxPoint x="-2010" y="365" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-25" value="EffectDamageComponent" style="whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-2130" y="335" width="162" height="40" as="geometry" />
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-25" value="EffectDamageComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2220" y="345" width="162" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-30" target="5B3u7BjO5yEvpYxDOT5w-22">
           <mxGeometry relative="1" as="geometry" />
@@ -480,7 +491,7 @@
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-30" value="SpellActionAbility" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="510" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-33" value="参加技能释放" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-33" value="参考技能释放" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1775" y="340" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-35" target="5B3u7BjO5yEvpYxDOT5w-97">
@@ -488,6 +499,51 @@
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-35" value="AttackAbility" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-850" y="1190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-37" value="AbilityEffectComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1635" y="340" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-41" target="-J8oJ2Sxk5KtxRYQshvN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-41" value="见其下面流程" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-3050" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-53" value="ReceiveCure" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-45" target="-J8oJ2Sxk5KtxRYQshvN-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-45" value="CureAction" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2368" y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-47" target="-J8oJ2Sxk5KtxRYQshvN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-55" value="侦听" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-47" target="-J8oJ2Sxk5KtxRYQshvN-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-47" value="DamageBloodSuckComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="335" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-50" target="-J8oJ2Sxk5KtxRYQshvN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-50" value="EffectCureComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="385" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-52" value="CombatEntity" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2368" y="485" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-54" value="ActionPointType.PostCauseDamage" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="250" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-56" value="EffectAssignAction" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2194" y="275" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-57" target="-J8oJ2Sxk5KtxRYQshvN-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-57" value="EffectAssignAction" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2590" y="475" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
