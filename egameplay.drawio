@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T14:56:50.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="M6-VaKBk1uDIpS9YioWf" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T15:38:19.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="cb6PhcKgkrmZuJqFi_ap" version="21.7.2" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
-    <mxGraphModel dx="9385" dy="2710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6462" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -299,9 +299,6 @@
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-97" value="AbilityEffectComponent" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-680" y="1190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5B3u7BjO5yEvpYxDOT5w-99" target="5B3u7BjO5yEvpYxDOT5w-126" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-27" value="根据Effect类型添加组件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5B3u7BjO5yEvpYxDOT5w-99" target="5B3u7BjO5yEvpYxDOT5w-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -355,36 +352,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-118" value="EffectAssignAction&lt;br&gt;赋给效果行动" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1217.5" y="610" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-123" value="AssignEffect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5B3u7BjO5yEvpYxDOT5w-122" target="5B3u7BjO5yEvpYxDOT5w-118" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-122" value="AbilityItem" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1222.5" y="917.5" width="120" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-125" value="AttackExecution" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1222.5" y="954.5" width="120" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-126" value="EffectTriggerEventBind" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1222.5" y="992" width="120" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-127" value="ExecuteClipAssignToTargetComponent" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1270" y="1030" width="215" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-128" value="StatusTenacityComponent" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1253.5" y="1072" width="182" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-129" value="Skill1006Component" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1238.5" y="1122" width="152" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-134" value="应用效果给目标效果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5B3u7BjO5yEvpYxDOT5w-133" target="5B3u7BjO5yEvpYxDOT5w-127" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5B3u7BjO5yEvpYxDOT5w-133" value="ExecuteClip" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1610" y="1026" width="110" height="50" as="geometry" />
+          <mxGeometry x="-892.5" y="569" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-136" value="SpellComponent" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-580" y="390" width="140" height="40" as="geometry" />
@@ -496,6 +464,15 @@
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-16" target="-J8oJ2Sxk5KtxRYQshvN-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-16" target="Af0_Uy767Y6ukT0NOYnS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-16" target="Af0_Uy767Y6ukT0NOYnS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-16" target="Af0_Uy767Y6ukT0NOYnS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-16" value="EffectAssignAction" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-3510" y="879" width="110" height="30" as="geometry" />
         </mxCell>
@@ -534,11 +511,10 @@
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-37" value="AbilityEffectComponent" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-1440" y="472.5" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-41" target="-J8oJ2Sxk5KtxRYQshvN-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-41" value="见其下面流程" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-3740" y="879" width="110" height="30" as="geometry" />
+        <mxCell id="-J8oJ2Sxk5KtxRYQshvN-43" value="调用&lt;br&gt;AssignEffect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Af0_Uy767Y6ukT0NOYnS-17" target="-J8oJ2Sxk5KtxRYQshvN-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3860" y="880" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-53" value="ReceiveCure" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-J8oJ2Sxk5KtxRYQshvN-45" target="-J8oJ2Sxk5KtxRYQshvN-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -635,6 +611,54 @@
         </mxCell>
         <mxCell id="-J8oJ2Sxk5KtxRYQshvN-87" value="Hero" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1694" y="390" width="84" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-1" value="EffectActionControlComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-3010" y="1036" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-3" value="EffectAttributeModifyComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-3340" y="1037.5" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-4" value="EffectCustomComponent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2730" y="1042" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-17" value="效果触发源" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-4560" y="684" width="670" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-122" value="AbilityItem" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="Af0_Uy767Y6ukT0NOYnS-17" vertex="1">
+          <mxGeometry x="427.5" y="96" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-125" value="AttackExecution" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="Af0_Uy767Y6ukT0NOYnS-17" vertex="1">
+          <mxGeometry x="427.5" y="133" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-126" value="EffectTriggerEventBind" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="Af0_Uy767Y6ukT0NOYnS-17" vertex="1">
+          <mxGeometry x="427.5" y="170.5" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-127" value="ExecuteClipAssignToTargetComponent" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="Af0_Uy767Y6ukT0NOYnS-17" vertex="1">
+          <mxGeometry x="380" y="208.5" width="215" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-128" value="StatusTenacityComponent" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="Af0_Uy767Y6ukT0NOYnS-17" vertex="1">
+          <mxGeometry x="396.5" y="250.5" width="182" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-129" value="Skill1006Component" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="Af0_Uy767Y6ukT0NOYnS-17" vertex="1">
+          <mxGeometry x="411.5" y="300.5" width="152" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-134" value="应用效果给目标效果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Af0_Uy767Y6ukT0NOYnS-17" source="5B3u7BjO5yEvpYxDOT5w-133" target="5B3u7BjO5yEvpYxDOT5w-127" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-133" value="ExecuteClip" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="Af0_Uy767Y6ukT0NOYnS-17" vertex="1">
+          <mxGeometry x="55" y="214.5" width="120" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-7" value="List&amp;lt;AbilityEffect&amp;gt;" style="html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-17">
+          <mxGeometry x="30" y="174.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5B3u7BjO5yEvpYxDOT5w-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Af0_Uy767Y6ukT0NOYnS-17" source="Af0_Uy767Y6ukT0NOYnS-7" target="5B3u7BjO5yEvpYxDOT5w-126" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-19" value="CreateAssignAction生成" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-18" target="-J8oJ2Sxk5KtxRYQshvN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-18" value="AbilityEffect" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3820" y="761" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
