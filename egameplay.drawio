@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T15:58:02.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3beY_fAZmChno5qqaU-T" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T16:01:16.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pTIuMDYoKT6WWWnse0J_" version="21.7.2" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
-    <mxGraphModel dx="6197" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6462" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-44" target="Af0_Uy767Y6ukT0NOYnS-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5B3u7BjO5yEvpYxDOT5w-1" value="技能释放流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="30" width="100" height="20" as="geometry" />
         </mxCell>
@@ -660,71 +657,77 @@
         <mxCell id="Af0_Uy767Y6ukT0NOYnS-19" value="CreateAssignAction添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-18" target="-J8oJ2Sxk5KtxRYQshvN-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-26" value="EnableTriggerBind" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-18" target="Af0_Uy767Y6ukT0NOYnS-22">
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-47" value="构造后一般直接触发" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-46" target="Af0_Uy767Y6ukT0NOYnS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-46" value="效果构造源" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4860" y="-15" width="1110" height="535" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-18" value="AbilityEffect" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="960" y="335.5" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-21" value="CreateAssignAction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-20" target="Af0_Uy767Y6ukT0NOYnS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-20" value="AbilityEffectComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="620" y="130.5" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-23" value="CreateAssignAction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-22" target="Af0_Uy767Y6ukT0NOYnS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-22" value="EffectTriggerEventBind" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="620" y="375.5" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-26" value="EnableTriggerBind" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-18" target="Af0_Uy767Y6ukT0NOYnS-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3845" y="480" />
-              <mxPoint x="-4165" y="480" />
+              <mxPoint x="1025" y="500.5" />
+              <mxPoint x="705" y="500.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-18" value="AbilityEffect" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3910" y="315" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-21" value="CreateAssignAction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-20" target="Af0_Uy767Y6ukT0NOYnS-18">
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-28" value="侦听触发TriggerEffectCheckWithTarget" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-27" target="Af0_Uy767Y6ukT0NOYnS-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-20" value="AbilityEffectComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4250" y="110" width="170" height="50" as="geometry" />
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-27" value="EffectActionPointTriggerComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="60" y="338" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-23" value="CreateAssignAction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-22" target="Af0_Uy767Y6ukT0NOYnS-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-30" value="添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-22" target="Af0_Uy767Y6ukT0NOYnS-27">
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-30" value="添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-22" target="Af0_Uy767Y6ukT0NOYnS-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-4250" y="355" />
-              <mxPoint x="-4250" y="298" />
-              <mxPoint x="-4705" y="298" />
+              <mxPoint x="620" y="375.5" />
+              <mxPoint x="620" y="318.5" />
+              <mxPoint x="165" y="318.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-34" value="添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-22" target="Af0_Uy767Y6ukT0NOYnS-31">
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-32" value="侦听触发TriggerEffectToParent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-31" target="Af0_Uy767Y6ukT0NOYnS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-31" value="EffectConditionEventTriggerComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="40" y="433" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-34" value="添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-22" target="Af0_Uy767Y6ukT0NOYnS-31">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-4250" y="482" />
-              <mxPoint x="-4715" y="482" />
+              <mxPoint x="620" y="502.5" />
+              <mxPoint x="155" y="502.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-22" value="EffectTriggerEventBind" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4250" y="355" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-28" value="侦听触发TriggerEffectCheckWithTarget" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-27" target="Af0_Uy767Y6ukT0NOYnS-22">
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-35" target="Af0_Uy767Y6ukT0NOYnS-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-27" value="EffectActionPointTriggerComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4810" y="317.5" width="210" height="40" as="geometry" />
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-35" value="AbilityItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="300" y="40.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-32" value="侦听触发TriggerEffectToParent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-31" target="Af0_Uy767Y6ukT0NOYnS-22">
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-37" target="Af0_Uy767Y6ukT0NOYnS-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-31" value="EffectConditionEventTriggerComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4830" y="412.5" width="230" height="50" as="geometry" />
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-37" value="AttackExecution" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="290" y="90.5" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-35" target="Af0_Uy767Y6ukT0NOYnS-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-35" value="AbilityItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4570" y="20" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-37" target="Af0_Uy767Y6ukT0NOYnS-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-37" value="AttackExecution" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4580" y="70" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-39" target="Af0_Uy767Y6ukT0NOYnS-20">
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-39" target="Af0_Uy767Y6ukT0NOYnS-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Af0_Uy767Y6ukT0NOYnS-41" value="CreateAssignAction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Af0_Uy767Y6ukT0NOYnS-40">
@@ -732,17 +735,20 @@
             <mxPoint x="-16" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-39" value="ExecuteClipAssignToTargetComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4670" y="110" width="220" height="50" as="geometry" />
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-39" value="ExecuteClipAssignToTargetComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="200" y="130.5" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Af0_Uy767Y6ukT0NOYnS-42" target="Af0_Uy767Y6ukT0NOYnS-20">
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-42" target="Af0_Uy767Y6ukT0NOYnS-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-42" value="SkillExecution1006Component" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4650" y="185" width="200" height="40" as="geometry" />
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-42" value="SkillExecution1006Component" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="220" y="205.5" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Af0_Uy767Y6ukT0NOYnS-44" value="StatusTenacityComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4650" y="225" width="200" height="40" as="geometry" />
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-44" value="StatusTenacityComponent" style="whiteSpace=wrap;html=1;" vertex="1" parent="Af0_Uy767Y6ukT0NOYnS-46">
+          <mxGeometry x="220" y="245.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Af0_Uy767Y6ukT0NOYnS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Af0_Uy767Y6ukT0NOYnS-46" source="Af0_Uy767Y6ukT0NOYnS-44" target="Af0_Uy767Y6ukT0NOYnS-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
