@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T09:33:35.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4DerLGKS9YbmOjADrWH8" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T09:41:39.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="y6FXuDYblpdqn8zIFHnF" version="23.1.6" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
-    <mxGraphModel dx="5962" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5917" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -788,30 +788,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a5jG6wQFU5zON2pcOwSL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-4" target="a5jG6wQFU5zON2pcOwSL-9">
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-1" target="a5jG6wQFU5zON2pcOwSL-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-21" target="a5jG6wQFU5zON2pcOwSL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-4" value="触发的各种条件&lt;br&gt;（技能、状态）" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-2481" y="-855" width="160" height="50" as="geometry" />
+          <mxGeometry x="-2735" y="-1010" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-9" target="a5jG6wQFU5zON2pcOwSL-13">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a5jG6wQFU5zON2pcOwSL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-9" target="a5jG6wQFU5zON2pcOwSL-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-2213" y="-1060" />
-              <mxPoint x="-2401" y="-1060" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a5jG6wQFU5zON2pcOwSL-30" value="各种行动点事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a5jG6wQFU5zON2pcOwSL-29">
-          <mxGeometry x="-0.4673" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-9" target="a5jG6wQFU5zON2pcOwSL-15">
           <mxGeometry relative="1" as="geometry">
@@ -824,6 +811,14 @@
         <mxCell id="a5jG6wQFU5zON2pcOwSL-32" value="非技能行为" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a5jG6wQFU5zON2pcOwSL-31">
           <mxGeometry x="-0.0303" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-35" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;各种行动点事件&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-9" target="a5jG6wQFU5zON2pcOwSL-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2213" y="-1160" />
+              <mxPoint x="-2653" y="-1160" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-9" value="行为" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -865,19 +860,19 @@
           <mxGeometry x="-2274.5" y="-640" width="123" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-21" value="主动触发事件" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-2570" y="-1040" width="104" height="30" as="geometry" />
+          <mxGeometry x="-2822.5" y="-1110" width="104" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-25" target="a5jG6wQFU5zON2pcOwSL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-25" value="行动点事件" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-2453" y="-1040" width="104" height="30" as="geometry" />
+          <mxGeometry x="-2705.5" y="-1110" width="104" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-26" target="a5jG6wQFU5zON2pcOwSL-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-26" value="计时状态事件" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-2339" y="-1040" width="104" height="30" as="geometry" />
+          <mxGeometry x="-2591.5" y="-1110" width="104" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-33" value="一系列执行任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2452.5" y="-740" width="103" height="40" as="geometry" />
