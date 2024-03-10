@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T09:02:05.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="UzKdZVGDtDza2TlLhU2d" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T09:05:08.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="UR34NXZ_ojJjZSKFzJf2" version="23.1.6" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
     <mxGraphModel dx="5962" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -801,22 +801,33 @@
           <mxGeometry x="-2278" y="-860" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-12" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-2740" y="-880" width="170" height="100" as="geometry" />
+          <mxGeometry x="-2740" y="-905" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-1" value="实体" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" vertex="1" parent="a5jG6wQFU5zON2pcOwSL-12">
-          <mxGeometry width="170" height="100" as="geometry" />
+          <mxGeometry width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-2" value="技能能力" style="whiteSpace=wrap;html=1;" vertex="1" parent="a5jG6wQFU5zON2pcOwSL-12">
-          <mxGeometry x="16" y="40" width="64" height="40" as="geometry" />
+          <mxGeometry x="15.5" y="30" width="64" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-3" value="状态能力" style="whiteSpace=wrap;html=1;" vertex="1" parent="a5jG6wQFU5zON2pcOwSL-12">
-          <mxGeometry x="91" y="40" width="64" height="40" as="geometry" />
+          <mxGeometry x="90.5" y="30" width="64" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-17" value="数值、属性" style="whiteSpace=wrap;html=1;" vertex="1" parent="a5jG6wQFU5zON2pcOwSL-12">
+          <mxGeometry x="53" y="90" width="64" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-13" target="a5jG6wQFU5zON2pcOwSL-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-13" value="能力执行体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2278" y="-740" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-15" target="a5jG6wQFU5zON2pcOwSL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-20" value="修改数值、状态、执行逻辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a5jG6wQFU5zON2pcOwSL-19">
+          <mxGeometry x="-0.0311" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-15" value="效果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2274.5" y="-640" width="123" height="40" as="geometry" />
