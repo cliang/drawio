@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T09:05:08.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="UR34NXZ_ojJjZSKFzJf2" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T09:28:02.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="p0QUcTqTwTgJVHGsDBPQ" version="23.1.6" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
     <mxGraphModel dx="5962" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -791,11 +791,27 @@
         <mxCell id="a5jG6wQFU5zON2pcOwSL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-4" target="a5jG6wQFU5zON2pcOwSL-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-21" target="a5jG6wQFU5zON2pcOwSL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-4" value="触发的各种条件&lt;br&gt;（技能、状态）" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-2481" y="-855" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-9" target="a5jG6wQFU5zON2pcOwSL-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-9" target="a5jG6wQFU5zON2pcOwSL-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2213" y="-1060" />
+              <mxPoint x="-2401" y="-1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-30" value="各种行动点事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a5jG6wQFU5zON2pcOwSL-29">
+          <mxGeometry x="-0.4673" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-9" value="行为" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2278" y="-860" width="130" height="60" as="geometry" />
@@ -831,6 +847,21 @@
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-15" value="效果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2274.5" y="-640" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-21" value="主动触发事件" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-2570" y="-1040" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-25" target="a5jG6wQFU5zON2pcOwSL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-25" value="行动点事件" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-2453" y="-1040" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-26" target="a5jG6wQFU5zON2pcOwSL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-26" value="计时状态事件" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-2339" y="-1040" width="104" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
