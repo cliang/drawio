@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T09:28:02.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="p0QUcTqTwTgJVHGsDBPQ" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T09:28:58.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="tsVg7WK1xuIBf-_B6RDu" version="23.1.6" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
     <mxGraphModel dx="5962" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -810,6 +810,19 @@
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-30" value="各种行动点事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a5jG6wQFU5zON2pcOwSL-29">
           <mxGeometry x="-0.4673" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-9" target="a5jG6wQFU5zON2pcOwSL-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2070" y="-830" />
+              <mxPoint x="-2070" y="-620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-32" value="非技能行为" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a5jG6wQFU5zON2pcOwSL-31">
+          <mxGeometry x="-0.0303" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
