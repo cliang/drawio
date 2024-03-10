@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T09:28:58.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="tsVg7WK1xuIBf-_B6RDu" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T09:33:35.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4DerLGKS9YbmOjADrWH8" version="23.1.6" type="github">
   <diagram name="第 1 页" id="cYuP9_Ojqshvzmye1KVs">
     <mxGraphModel dx="5962" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -847,6 +847,9 @@
         <mxCell id="a5jG6wQFU5zON2pcOwSL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-13" target="a5jG6wQFU5zON2pcOwSL-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-34" value="包含" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5jG6wQFU5zON2pcOwSL-13" target="a5jG6wQFU5zON2pcOwSL-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-13" value="能力执行体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2278" y="-740" width="130" height="40" as="geometry" />
         </mxCell>
@@ -875,6 +878,9 @@
         </mxCell>
         <mxCell id="a5jG6wQFU5zON2pcOwSL-26" value="计时状态事件" style="whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-2339" y="-1040" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a5jG6wQFU5zON2pcOwSL-33" value="一系列执行任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2452.5" y="-740" width="103" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
