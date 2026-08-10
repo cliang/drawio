@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="bkxtPwWS3XLOQ43XzJmZ">
-    <mxGraphModel dx="2249" dy="2981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2220" dy="3065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
           <mxGeometry height="60" width="120" x="379.9972727272725" y="585" as="geometry" />
         </mxCell>
         <mxCell id="lVhso8jOWquVKJcT89s6-26" parent="1" style="swimlane;startSize=0;labelBackgroundColor=none;fontColor=#000000;" value="" vertex="1">
-          <mxGeometry height="420" width="300" x="710" y="-360" as="geometry">
+          <mxGeometry height="380" width="410" x="790" y="-1240" as="geometry">
             <mxRectangle height="40" width="50" x="740" y="-320" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -109,30 +109,31 @@
             <mxPoint x="135.18181818181802" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-16" edge="1" parent="lVhso8jOWquVKJcT89s6-26" source="lVhso8jOWquVKJcT89s6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="VCRqb0L_9xda17UlrU40-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lVhso8jOWquVKJcT89s6-18" parent="lVhso8jOWquVKJcT89s6-26" style="whiteSpace=wrap;labelBackgroundColor=none;fontColor=#000000;" value="根节点&#xa;FieldCellComponent" vertex="1">
-          <mxGeometry height="60" width="210" x="30" y="50" as="geometry" />
+          <mxGeometry height="60" width="210" x="75" y="40" as="geometry" />
         </mxCell>
         <mxCell id="lVhso8jOWquVKJcT89s6-21" edge="1" parent="lVhso8jOWquVKJcT89s6-26" source="lVhso8jOWquVKJcT89s6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#000000;" target="lVhso8jOWquVKJcT89s6-22" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="135.18181818181802" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lVhso8jOWquVKJcT89s6-20" parent="lVhso8jOWquVKJcT89s6-26" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#000000;" value="容器&#xa;ObjectContainer" vertex="1">
-          <mxGeometry height="60" width="120" x="75.00181818181818" y="150" as="geometry" />
+        <mxCell id="lVhso8jOWquVKJcT89s6-20" parent="lVhso8jOWquVKJcT89s6-26" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#000000;" value="FieldElementView" vertex="1">
+          <mxGeometry height="60" width="120" x="22.50181818181818" y="145" as="geometry" />
         </mxCell>
-        <mxCell id="lVhso8jOWquVKJcT89s6-23" edge="1" parent="lVhso8jOWquVKJcT89s6-26" source="lVhso8jOWquVKJcT89s6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#000000;" target="lVhso8jOWquVKJcT89s6-24" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="135.18181818181802" y="330" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="lVhso8jOWquVKJcT89s6-22" parent="lVhso8jOWquVKJcT89s6-26" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#000000;" value="FieldElementIconComponent" vertex="1">
+          <mxGeometry height="60" width="195" x="82.5" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="lVhso8jOWquVKJcT89s6-22" parent="lVhso8jOWquVKJcT89s6-26" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#000000;" value="挂载动效组件Workbench" vertex="1">
-          <mxGeometry height="60" width="120" x="75.00181818181818" y="240" as="geometry" />
+        <mxCell id="lVhso8jOWquVKJcT89s6-27" parent="lVhso8jOWquVKJcT89s6-26" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#000000;" value="挂载脚本结构" vertex="1">
+          <mxGeometry height="30" width="60" x="150" as="geometry" />
         </mxCell>
-        <mxCell id="lVhso8jOWquVKJcT89s6-24" parent="lVhso8jOWquVKJcT89s6-26" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#000000;" value="icon的显示&#xa;FieldElementIconComponent" vertex="1">
-          <mxGeometry height="60" width="225" x="22.5" y="340" as="geometry" />
+        <mxCell id="VCRqb0L_9xda17UlrU40-17" edge="1" parent="lVhso8jOWquVKJcT89s6-26" source="VCRqb0L_9xda17UlrU40-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lVhso8jOWquVKJcT89s6-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lVhso8jOWquVKJcT89s6-27" parent="lVhso8jOWquVKJcT89s6-26" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#000000;" value="元素结构" vertex="1">
-          <mxGeometry height="30" width="60" x="105" as="geometry" />
+        <mxCell id="VCRqb0L_9xda17UlrU40-15" parent="lVhso8jOWquVKJcT89s6-26" style="whiteSpace=wrap;html=1;" value="TweenFieldElementController" vertex="1">
+          <mxGeometry height="60" width="200" x="170" y="150" as="geometry" />
         </mxCell>
         <mxCell id="lVhso8jOWquVKJcT89s6-29" parent="1" style="swimlane;whiteSpace=wrap;" value="合并交互流程" vertex="1">
           <mxGeometry height="1190" width="960" x="-310" y="-1550" as="geometry" />
@@ -287,6 +288,39 @@
         </mxCell>
         <mxCell id="lVhso8jOWquVKJcT89s6-56" parent="1" style="rounded=0;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#000000;" value="FormMergeTwoGame" vertex="1">
           <mxGeometry height="60" width="213" x="-443.5" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-3" edge="1" parent="1" source="VCRqb0L_9xda17UlrU40-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=block;startFill=0;startSize=6;endSize=20;dashed=1;" target="VCRqb0L_9xda17UlrU40-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-2" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;IFieldElementPresenter&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="1110" y="-1840" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-5" parent="1" style="whiteSpace=wrap;html=1;" value="FieldCellComponent" vertex="1">
+          <mxGeometry height="50" width="170" x="1654" y="-1900" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-7" edge="1" parent="1" source="VCRqb0L_9xda17UlrU40-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=block;startFill=0;endArrow=none;endFill=0;startSize=6;" target="VCRqb0L_9xda17UlrU40-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-9" edge="1" parent="1" source="VCRqb0L_9xda17UlrU40-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=block;startFill=0;endArrow=none;endFill=0;" target="VCRqb0L_9xda17UlrU40-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-6" parent="1" style="whiteSpace=wrap;html=1;" value="FieldElementPresenterBase" vertex="1">
+          <mxGeometry height="40" width="225" x="1092.5" y="-1740" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-8" parent="1" style="whiteSpace=wrap;html=1;" value="FieldElementGeneratorPresenter" vertex="1">
+          <mxGeometry height="50" width="225" x="940" y="-1620" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-11" parent="1" style="whiteSpace=wrap;html=1;" value="FieldElementPresenter" vertex="1">
+          <mxGeometry height="40" width="130" x="1270" y="-1615" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-13" edge="1" parent="1" source="VCRqb0L_9xda17UlrU40-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="VCRqb0L_9xda17UlrU40-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-12" parent="1" style="whiteSpace=wrap;html=1;" value="FormMergeTwoGame" vertex="1">
+          <mxGeometry height="60" width="190" x="610" y="-1980" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-14" parent="1" style="whiteSpace=wrap;html=1;" value="FieldElementVisualFactory" vertex="1">
+          <mxGeometry height="50" width="190" x="610" y="-1880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
