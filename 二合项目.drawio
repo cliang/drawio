@@ -311,7 +311,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-12" parent="1" style="whiteSpace=wrap;html=1;" value="FormMergeTwoGame" vertex="1">
-          <mxGeometry height="60" width="190" x="460" y="-2540" as="geometry" />
+          <mxGeometry height="60" width="190" x="1325" y="-2670" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-46" edge="1" parent="1" source="VCRqb0L_9xda17UlrU40-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="VCRqb0L_9xda17UlrU40-26">
           <mxGeometry relative="1" as="geometry" />
@@ -322,7 +322,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-14" parent="1" style="whiteSpace=wrap;html=1;" value="FieldElementVisualFactory" vertex="1">
-          <mxGeometry height="50" width="190" x="460" y="-2440" as="geometry" />
+          <mxGeometry height="50" width="190" x="1325" y="-2570" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="View棋子显示逻辑" vertex="1">
           <mxGeometry height="790" width="990" x="950" y="-2250" as="geometry" />
@@ -388,19 +388,21 @@
         <mxCell id="VCRqb0L_9xda17UlrU40-34" edge="1" parent="VCRqb0L_9xda17UlrU40-26" source="VCRqb0L_9xda17UlrU40-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="VCRqb0L_9xda17UlrU40-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VCRqb0L_9xda17UlrU40-43" parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;dashed=1;" value="选中、位置、busy、锁定、锁定状态、是否选中" vertex="1">
+        <mxCell id="VCRqb0L_9xda17UlrU40-43" parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;shape=note;backgroundOutline=1;darkOpacity=0.05;dashed=1;" value="选中、位置、busy、锁定、锁定状态、是否选中" vertex="1">
           <mxGeometry height="60" width="160" x="211" y="690" as="geometry" />
         </mxCell>
-        <mxCell id="VCRqb0L_9xda17UlrU40-51" parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;dashed=1;" value="选中、订单状态、奖励、锁定状态" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="410" as="geometry" />
-        </mxCell>
+        <UserObject label="选中、订单状态、奖励、锁定状态" note="&lt;br&gt;" id="VCRqb0L_9xda17UlrU40-51">
+          <mxCell parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;rounded=0;glass=0;shadow=0;shape=note;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1">
+            <mxGeometry height="60" width="120" x="430" y="410" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="VCRqb0L_9xda17UlrU40-50" edge="1" parent="VCRqb0L_9xda17UlrU40-26" source="VCRqb0L_9xda17UlrU40-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="VCRqb0L_9xda17UlrU40-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-52" edge="1" parent="VCRqb0L_9xda17UlrU40-26" source="VCRqb0L_9xda17UlrU40-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="VCRqb0L_9xda17UlrU40-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VCRqb0L_9xda17UlrU40-54" parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;dashed=1;" value="倒计时FieldElementGeneratorView、发射器特效、图片" vertex="1">
+        <mxCell id="VCRqb0L_9xda17UlrU40-54" parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;shape=note;backgroundOutline=1;darkOpacity=0.05;dashed=1;" value="倒计时FieldElementGeneratorView、发射器特效、图片" vertex="1">
           <mxGeometry height="70" width="151" x="204.5" y="507" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-53" edge="1" parent="VCRqb0L_9xda17UlrU40-26" source="VCRqb0L_9xda17UlrU40-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="VCRqb0L_9xda17UlrU40-54">
@@ -417,6 +419,24 @@
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-58" edge="1" parent="1" source="VCRqb0L_9xda17UlrU40-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VCRqb0L_9xda17UlrU40-57">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hl-uL0ayu7mSStTBtPCg-3" edge="1" parent="1" source="Hl-uL0ayu7mSStTBtPCg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Hl-uL0ayu7mSStTBtPCg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hl-uL0ayu7mSStTBtPCg-7" edge="1" parent="1" source="Hl-uL0ayu7mSStTBtPCg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Hl-uL0ayu7mSStTBtPCg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hl-uL0ayu7mSStTBtPCg-1" parent="1" style="whiteSpace=wrap;html=1;" value="ProcedureMergeTwoGame" vertex="1">
+          <mxGeometry height="40" width="190" x="1325" y="-2810" as="geometry" />
+        </mxCell>
+        <mxCell id="Hl-uL0ayu7mSStTBtPCg-4" edge="1" parent="1" source="Hl-uL0ayu7mSStTBtPCg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VCRqb0L_9xda17UlrU40-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hl-uL0ayu7mSStTBtPCg-2" parent="1" style="whiteSpace=wrap;html=1;" value="MergeTwoViewManager" vertex="1">
+          <mxGeometry height="40" width="200" x="1320" y="-2740" as="geometry" />
+        </mxCell>
+        <mxCell id="Hl-uL0ayu7mSStTBtPCg-5" parent="1" style="whiteSpace=wrap;html=1;" value="MergeTwoGameManager" vertex="1">
+          <mxGeometry height="40" width="180" x="2190" y="-2810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
