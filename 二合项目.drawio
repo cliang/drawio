@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="bkxtPwWS3XLOQ43XzJmZ">
-    <mxGraphModel dx="2232" dy="3077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2394" dy="4246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,7 +311,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-12" parent="1" style="whiteSpace=wrap;html=1;" value="FormMergeTwoGame" vertex="1">
-          <mxGeometry height="60" width="190" x="500" y="-2150" as="geometry" />
+          <mxGeometry height="60" width="190" x="460" y="-2540" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-46" edge="1" parent="1" source="VCRqb0L_9xda17UlrU40-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="VCRqb0L_9xda17UlrU40-26">
           <mxGeometry relative="1" as="geometry" />
@@ -322,10 +322,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-14" parent="1" style="whiteSpace=wrap;html=1;" value="FieldElementVisualFactory" vertex="1">
-          <mxGeometry height="50" width="190" x="500" y="-2050" as="geometry" />
+          <mxGeometry height="50" width="190" x="460" y="-2440" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="View棋子显示逻辑" vertex="1">
-          <mxGeometry height="790" width="990" x="920" y="-2260" as="geometry" />
+          <mxGeometry height="790" width="990" x="950" y="-2250" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-8" parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;" value="FieldElementGeneratorPresenter" vertex="1">
           <mxGeometry height="50" width="225" x="60" y="290" as="geometry" />
@@ -337,7 +337,7 @@
           <mxGeometry height="40" width="225" x="302.5" y="180" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-2" parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;IFieldElementPresenter&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="190" x="320" y="80" as="geometry" />
+          <mxGeometry height="40" width="190" x="320" y="60" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-7" edge="1" parent="VCRqb0L_9xda17UlrU40-26" source="VCRqb0L_9xda17UlrU40-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=block;startFill=0;endArrow=none;endFill=0;startSize=6;" target="VCRqb0L_9xda17UlrU40-8">
           <mxGeometry relative="1" as="geometry" />
@@ -404,6 +404,18 @@
           <mxGeometry height="70" width="151" x="204.5" y="507" as="geometry" />
         </mxCell>
         <mxCell id="VCRqb0L_9xda17UlrU40-53" edge="1" parent="VCRqb0L_9xda17UlrU40-26" source="VCRqb0L_9xda17UlrU40-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="VCRqb0L_9xda17UlrU40-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-56" parent="VCRqb0L_9xda17UlrU40-26" style="whiteSpace=wrap;html=1;" value="监听事件" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-55" edge="1" parent="VCRqb0L_9xda17UlrU40-26" source="VCRqb0L_9xda17UlrU40-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="VCRqb0L_9xda17UlrU40-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-57" parent="1" style="whiteSpace=wrap;html=1;" value="IFieldElement" vertex="1">
+          <mxGeometry height="60" width="120" x="2270" y="-2080" as="geometry" />
+        </mxCell>
+        <mxCell id="VCRqb0L_9xda17UlrU40-58" edge="1" parent="1" source="VCRqb0L_9xda17UlrU40-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VCRqb0L_9xda17UlrU40-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
